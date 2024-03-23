@@ -58,6 +58,7 @@
     font-weight: 400;
     font-size: 24px;
     padding:0;
+    z-index: 999;
 }
 .loginBox > .email {
     width: 100%;
@@ -66,6 +67,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    z-index: 999;
 }
 .loginBox > .email::before, .password::before {
     width: 100%;
@@ -73,6 +75,7 @@
     background: url("../public/images/ic-20-delete-white\ 2.png") no-repeat center right 0;
     content: "";
     position: absolute;
+    z-index: 0;
 }
 .loginBox > .text {
     font-weight: 400;
