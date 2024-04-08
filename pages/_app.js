@@ -1,4 +1,4 @@
-import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client"
 
 export default function App({ Component, pageProps }) {
   
@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div>
       <ApolloProvider client={client}>
-        <Component/>;
+        <Component/>
       </ApolloProvider>
     </div>
   )
